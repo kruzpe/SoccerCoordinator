@@ -18,7 +18,24 @@ var players = [
     "Philip Helm": ["height": 44,"soccer experience": "yes","guardians name´s": "Thomas Helm and Eva Jones"],
     "Les Clay": ["height": 42,"soccer experience": "yes","guardians name´s": "Wynonna Brown"],
     "Herschel Krustofski": ["height": 45,"soccer experience": "yes","guardians name´s": "Hyman and Rachel Krustofski"]
-    ] as [String : Any]
+] as [String : [String : Any]]
+
+//print(players["Les Clay"]!["height"]!)
+
+func bestTeam(team: [String : [String : Any]]){
+    
+    var teamSharks = [String : [String : Any]]()
+    var teamDragons = [String : [String : Any]]()
+    var teamRaptors = [String : [String : Any]]()
+var arrayOfTeams = [teamSharks,teamDragons,teamRaptors]
+    
+    for (name,data) in team{
+        
+
+
+}
 
 
 
+
+}
